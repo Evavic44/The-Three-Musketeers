@@ -51,10 +51,22 @@ Collection of all scripts to get you started with web development and ease your 
     ```
 * Create a new pull request from your forked repository to `master` branch of `Evavic44/The-Three-Musketeers`
 
-## 👨‍💻Project Admin
+## ✔Contributors
 
-<a href="https://github.com/prathimacode-hub"><img src="https://avatars.githubusercontent.com/u/62628408?v=4" width=150px height=150px /></a>
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+Thanks goes to these amazing people for their contributions 🎉🎉🎉
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+<tr>
+<td align="center"><a href="https://github.com/prathimacode-hub"><img src="https://avatars.githubusercontent.com/u/74645302?v=4" width="100px;" alt=""/><br /><sub><b>Prathima Kadari</b></sub></a><br /> </td>
+</tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## ⭐If you like the project:
 
