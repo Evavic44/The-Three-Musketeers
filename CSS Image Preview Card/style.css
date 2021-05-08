@@ -1,6 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
 :root {
-    --primary-color: #4b296bff;
-    --primary-color-hover: #4c2c72ff;
-    --secondary-color: #87b37aff;
-    --secondary-color-hover: #9ce37dff;
+    --primary-color: #1c1938;
+    --secondary-color: #a75bd7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+    overflow-y: hidden;
+}
+
+h3, h4 {
+    padding-bottom: 15px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#hero {
+    height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    height: 100%;
+}
+
+.image-card .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-card .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+/* Left Column */
+.column .column-left {
+    width: 100%;
+    height: 100%;
+}
+
+.column .column-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay */
+.overlay {
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    animation: anime 1s 1 forwards cubic-bezier(0.15, 0.5, 0.165, 0.6);
+}
+
+@keyframes anime {
+    from {
+        transform: scale(1.7);
+    }
+    
+    to {
+        transform: scale(1);
+    }
+}
+
+.overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    opacity: 0.5;
+}
+
+
+/* Right Column */
+.column .column-right {
+    background-color: var(--primary-color);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    height: 100%;
+    padding: 20px 30px;
+}
+
+.column-right h4 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.column-right p {
+    padding-bottom: 15px;
+    opacity: 0.6;
+    line-height: 1.7;
+}
+
+.column .links a {
+    color: #fff;
+    margin: 0 10px;
+    transition: opacity 0.4s ease-in-out;
+}
+
+.column .links a:hover {
+    opacity: 0.6;
 }
