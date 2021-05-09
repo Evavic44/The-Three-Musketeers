@@ -12,6 +12,17 @@ Do follow this [issue template](https://github.com/Evavic44/The-Tree-Musketeers/
 
 Collection of all scripts to get you started with web development and ease your learning journey. Repo can be used for your inspiration or mere fun. Contributions of any kind are welcome.
 
+## Projects
+
+<div align="center">
+    <h4>CSS Cards</h4>
+    <img src="https://user-images.githubusercontent.com/62628408/117551074-bfa8c580-b03b-11eb-8cbd-5f1550d4d3d8.png" width="388" height="184"  />
+    <h4>CSS Image Preview Card</h4>
+    <img src="https://user-images.githubusercontent.com/62628408/117550988-30031700-b03b-11eb-8f7b-7ecd6e4d16ec.png" width="388" height="184"  />
+</div>
+
+
+
 ## 💥Contributions 
 
 #### Contribution rules
