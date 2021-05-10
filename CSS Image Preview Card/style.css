@@ -16,7 +16,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.5;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 h3, h4 {
@@ -72,11 +72,15 @@ a {
     object-fit: cover;
 }
 
-/* Overlay */
+/* Animation Overlay */
 .overlay {
     position: relative;
     transition: all 0.4s ease-in-out;
     animation: anime 1s 1 forwards cubic-bezier(0.15, 0.5, 0.165, 0.6);
+}
+
+.overlay-2 {
+    z-index: 2;
 }
 
 @keyframes anime {
@@ -133,4 +137,24 @@ a {
 
 .column .links a:hover {
     opacity: 0.6;
+}
+
+/* Responsive */
+@media(max-width: 570px) {
+    body {
+        overflow-y: visible;
+    }
+
+    .image-card .row {
+        flex-direction: column;
+    }
+
+    .image-card .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+
+    .overlay {
+        animation: none;
+    }
 }
