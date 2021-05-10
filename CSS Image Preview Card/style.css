@@ -150,7 +150,7 @@ a {
     }
 
     .image-card .column {
-        flex: 100%;
+        flex: 1;
         max-width: 100%;
     }
 
