@@ -6,7 +6,7 @@
 
 This repository is specifically created to work and document all the basic web development projects using HTML, CSS & JavaScript. It's an Ultimate Web Dev Trio combination. Let's call this "The Three Musketeers".
 
-Everyone are welcomed to hop in be it beginner or professional. Feel free to push a PR
+Everyone are welcomed to hop in be it beginner or professional. Feel free to push a PR.
 
 Do follow this [issue template](https://github.com/Evavic44/The-Tree-Musketeers/blob/main/.github/ISSUE_TEMPLATE/issues-template.md) to create an issue.
 
@@ -29,6 +29,7 @@ Collection of all scripts to get you started with web development and ease your 
 
 #### Contribution rules
 
+* Make sure to follow these [contributing guidelines](https://github.com/prathimacode-hub/The-Tree-Musketeers/blob/main/CONTRIBUTING.md) to get PR merged successfully.
 * Create an issue using the [template](https://github.com/Evavic44/The-Tree-Musketeers/blob/main/.github/ISSUE_TEMPLATE/issues-template.md) given stating the PR you are going to add and what it does briefly
 * Create a new branch in your forked repository and then start working
 * Include a proper commit message in your commits. `$ git commit -m 'Commit message'`
